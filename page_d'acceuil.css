@@ -1,9 +1,15 @@
-#creepy{
-    color:darkslategrey;
+.bg{    background-color: rgb(94, 9, 9);
 }
-.backgroud{
-    background-color: blueviolet;
+.image{
+    width: 35%; 
+    margin-left: aut}
+#jr{
+    display: block;
+  width: 35%;
+  margin: auto;
 }
-.jr{
-    background-color: brown;
+#ji{
+    display: block;
+    margin-top: -820px;
+    position: absolute; left:1000px
 }
