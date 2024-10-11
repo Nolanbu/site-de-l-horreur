@@ -1,0 +1,16 @@
+.color{
+    background-color:darkslateblue;
+}
+.width{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+.width2{
+    display: block;
+    width: 100%;
+    margin: 100px;
+}
+.titre{
+    font-size: 30px;
+}
