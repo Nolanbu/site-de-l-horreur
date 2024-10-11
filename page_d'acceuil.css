@@ -3,7 +3,7 @@
 }
 .image{
     width: 35%; 
-    margin-left: aut}
+    margin-left: auto}
 #jr{
     display: block;
   width: 35%;
@@ -11,6 +11,12 @@
 }
 #ji{
     display: block;
-    margin-top: -820px;
+    margin-top: -815px;
     position: absolute; left:1300px
+}
+.p {
+    color :rgb(255, 255, 255)
+}
+.cp{
+    position:absolute; left:800px
 }
