@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Jeux Indépendants d'Horreurs</title>
+    <link href="jeux_indépendants.css" rel="stylesheet">
+</head>
+
+<body class="color">
+    <div class=width2 > <button style="font-size: 60px;"> Les jeux indépendants d'horreurs </button>   
+
+    </div>
+    <div> 
+        <img class=width src="https://imgs.search.brave.com/cB7tbm2IBV_EQy1hFJuXlSIzZM2FG3GebjLfbNqsWlc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzU0/MjUuanBn" >
+    </div>
+    
+</body>
+</html>
