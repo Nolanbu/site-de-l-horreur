@@ -24,6 +24,12 @@
 #jr1{
     border-radius: 20%;   
     display: block;
+<<<<<<< HEAD
     position: relative;
     width:30%; 
 }
+=======
+    background-color: rgba(34, 83, 56, 0.904);
+    margin-bottom: 200px;
+}
+>>>>>>> 06166bd54ec35e70d1da708675c1ddb91047989f
