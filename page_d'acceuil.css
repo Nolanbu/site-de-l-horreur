@@ -1,33 +1,29 @@
 .bg{   
-     background-color: rgb(94, 9, 9);
-}
-.image{
-    width: 35%; 
-    margin-left: auto}
-#jr{
-    border: radius 20%;
-    display: block;
-  width: 35%;
-  margin: auto;
+     background-image: url(https://wallpaperbat.com/img/110375-dark-forest-wallpaper-high-resolution-background-1-hd-wallpaper.jpg);
 }
 #ji{
     display: block;
+    position: relative;left: 1170px;
+    width:30%; 
+    border-radius: 20%; 
+    top: -489px;
 }
-.p {
+.p{
     color :rgb(255, 255, 255)
 }
-.cp{
-    width: 35%;
+#creepy{
+    
     display: block;
-    background-color: rgba(92, 75, 75, 0.904);
+    position: relative;
+    top: -550px;
+    margin: auto;
+    border-radius: 20%; 
+    width:30%; 
     
 }
-.jr1{
-    background-color: rgb(92, 81, 66);
-    border-radius: 20%;
-}
-.ji1{
+#jr1{
+    border-radius: 20%;   
     display: block;
-    background-color: rgba(34, 83, 56, 0.904);
-    margin-bottom: 200px;
+    position: relative;
+    width:30%; 
 }
