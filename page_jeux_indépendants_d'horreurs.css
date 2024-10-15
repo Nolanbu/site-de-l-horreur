@@ -1,10 +1,12 @@
-.bgcolor{
+.color{
     background-color:darkslateblue;
 }
 .width{
     display: block;
-    width: 50%;
-    margin: auto;
+
+    width: 25%;
+    margin: 200px;
+    size-adjust: 100px;
 }
 .width2{
     display: block;
@@ -18,4 +20,11 @@
     display: block;
     width: 10%;
     margin: 500px;
+}
+.bgimg{
+    background-image: url(https://wallpaperbat.com/img/110375-dark-forest-wallpaper-high-resolution-background-1-hd-wallpaper.jpg);
+}
+.font{
+    font-family: fantasy;
+    color: darkslategray;
 }
