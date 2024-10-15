@@ -5,18 +5,29 @@
     width: 35%; 
     margin-left: auto}
 #jr{
+    border: radius 20%;
     display: block;
   width: 35%;
   margin: auto;
 }
 #ji{
     display: block;
-    margin-top: -815px;
-    position: absolute; left:1300px
 }
 .p {
     color :rgb(255, 255, 255)
 }
 .cp{
-    position:absolute; left:800px
+    width: 35%;
+    display: block;
+    background-color: rgba(92, 75, 75, 0.904);
+    
+}
+.jr1{
+    background-color: rgb(92, 81, 66);
+    border-radius: 20%;
+}
+.ji1{
+    display: block;
+    background-color: rgba(34, 83, 56, 0.904);
+    margin-bottom: 200px;
 }
