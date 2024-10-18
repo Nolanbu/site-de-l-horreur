@@ -2,7 +2,7 @@
      background-image: url(https://wallpaperbat.com/img/110375-dark-forest-wallpaper-high-resolution-background-1-hd-wallpaper.jpg);
 }
 p{
-    color :rgb(255, 255, 255);
+    color :rgba(255, 255, 255, 0.945);
     font-family: cursive;}
 #image{
     border-radius: 20%;   
@@ -26,12 +26,17 @@ p{
 }
 .grid3{
     grid-column: 3;
-    grid-row:1;
+    grid-row: 1;
 }
 .retro{
-    margin-top:-27.6rem;
-    margin-left:10rem;
+    grid-column: 1;
+    margin-top:-570px;
 }
 .creepy{
-    float:right
+    grid-column:3;
+    margin-top:-460px;
+}
+.indépendant{
+    grid-column: 2;
+    margin-top:-240px;
 }
