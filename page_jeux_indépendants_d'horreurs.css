@@ -6,43 +6,7 @@
     font-family: fantasy;
     font-size: 80px;
     color: rgb(221, 184, 127);
-    position: relative;
-    left: 15%;
-}
-.grid-wapper{
-    display: grid;
-    grid-row: auto;
-    gap: 5%;
-    grid-column: auto;
-    justify-content: center;
-}
-.grid1{
-    grid-column: 1;
-    grid-row: 1;
-}
-.grid2{
-    grid-column: 1;
-    grid-row: 2;
-}
-.grid3{
-    grid-column: 1;
-    grid-row: 3;
-}
-.grid4{
-    grid-column: 2;
-    grid-row: 1;
-    font-family: 'Times New Roman', Times, serif;
-    width: 500px;
-}
-.grid5{
-    grid-column: 2;
-    grid-row: 2;
-    
-}
-.grid6{
-    grid-column: 2;
-    grid-row: 3;
-    width: 500px;
+    right: 15%;
 }
 p{
     font-family: 'Times New Roman', Times, serif;
@@ -51,4 +15,48 @@ p{
 }
 .colorhyperlink{
     color: rgb(224, 224, 171);
+}
+
+img{
+    width: 50%;
+
+}
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
 }
