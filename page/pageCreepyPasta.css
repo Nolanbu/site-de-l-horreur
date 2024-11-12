@@ -28,7 +28,6 @@ nav{
 a{
   color:rgb(224, 224, 171); ;
 }
-
 * {box-sizing: border-box}
 .mySlides1, .mySlides2 {display: none}
 img {vertical-align: middle;
