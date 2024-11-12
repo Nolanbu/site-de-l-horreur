@@ -12,11 +12,13 @@ p{
 }
 h1{
   font-family: cursive;
-  tex
+  text
 }
 h2{
-  font-family:'Lucida Grande',;
-  color:rgb(224, 224, 171);
+    font-family: fantasy;
+    font-size: 40px;
+    color: #6a3fa3;
+}
 }
 img{
     width: 100%;
