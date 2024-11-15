@@ -11,9 +11,7 @@ reset
 --------------------------------------------- 
 */
 
-nav{
-  text-align: center;
-}
+
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
@@ -71,12 +69,17 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+nav{
+  padding: 20px;
+  text-align: center;
+}
+
 a {
 	color: #CCC;
   text-decoration: none !important;
 }
 a:hover {
-	color: #F99;
+	color: rgb(113, 94, 126);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -103,19 +106,19 @@ img {
 
 /* 
 ---------------------------------------------
-Global Styles
+Le corps principal
 --------------------------------------------- 
 */
-html,
-body {
+html, body {
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,58,69,1) 40%, rgba(166,88,151,1) 100%, rgba(0,212,255,1) 100%);
   font-family: 'Poppins', sans-serif;
-}
+}/
+
 
 body .page-content {
   margin-top: 110px;
-  background-color: #27292a;
+  background-color: #312a31;
   padding: 60px;
   border-radius: 23px;
 }
@@ -215,7 +218,7 @@ section {
 
 /* 
 ---------------------------------------------
-Pre-loader Style
+Le Style de l'Ecran 
 --------------------------------------------- 
 */
 
@@ -286,7 +289,7 @@ Pre-loader Style
   height: 16px;
   top: 12px;
   left: 15px;
-  background: #e75e8d;
+  background: #3d1523f5;
   border-radius: 50%;
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -309,26 +312,26 @@ Pre-loader Style
   width: 16px;
   height: 16px;
   margin-left: 16px;
-  background: #e75e8d;
+  background: #290c16;
   border-radius: 50%;
 }
 
 
 /* 
 ---------------------------------------------
-Most Popular Style
+Le CSS de la section "Most Popular"
 --------------------------------------------- 
 */
 
 .most-popular {
   margin-top: 30px;
   padding: 30px;
-  background-color: #1f2122;
+  background-color: #48304d;
   border-radius: 23px;
 }
 
 .most-popular .item {
-  background-color: #27292a;
+  background-color: #2b121e;
   padding: 30px 15px;
   border-radius: 23px;
   margin-bottom: 30px;
@@ -378,7 +381,7 @@ Most Popular Style
 }
 
 .most-popular .item ul li:first-child i {
-  color: yellow;
+  color: rgb(0, 195, 255);
 }
 
 .most-popular .item ul li:last-child i {

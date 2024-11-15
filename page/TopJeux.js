@@ -17,7 +17,7 @@ const getPlatformStr = (platforms) => {
 function loadGames(url){
     loaderEl.classList.remove("loaded");
     
-    // Fetch recently released games from RAWG API
+    // Prend la data de l'api avec la commande fetch
     fetch(url)
         .then(response => response.json())
         .then(data => {
@@ -53,7 +53,7 @@ function loadGames(url){
 }
 
 
-// load games
+// Charge les Jeux
 loadGames(url);
 
 loadMoreGamesBtn.addEventListener("click", ()=>{

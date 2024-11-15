@@ -1,33 +1,60 @@
-.bg{
+body{
     background: rgb(158,152,69);
     background: linear-gradient(90deg, rgba(158,152,69,1) 0%, rgba(121,32,32,1) 100%);
 }
+}
+
 p{
     font-family: 'Times New Roman', Times, serif;
     color: rgb(224, 224, 171);
     font-size: 25px;
 }
-.colorhyperlink{
+
+a{
     color: rgb(224, 224, 171);
 }
+
+.decal{
+  size: 30px;
+  text-align: center;
+}
+
 h1{
-  font-family: cursive;
+  font-family: fantasy;
+  font-size: 80px;
+  color: rgb(226, 226, 226);
+  text-align: center;
+
 }
+
 h2{
-  font-family:'Lucida Grande',;
-  color:rgb(224, 224, 171);
+  font-family: fantasy;
+  font-size: 40px;
+  color: rgb(226, 226, 226);
 }
+
+h3{
+  font-family: fantasy;
+  font-size: 40px;
+  color: rgb(226, 226, 226);
+}
+
 img{
     width: 100%;
 }
-nav{
-  position:relative;
-  margin-left: 910px;
-}
+nav {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+nav a{
+     font-size: 30px;
+     font-family: fantasy;
+  }
 
 a{
   color:rgb(224, 224, 171); ;
 }
+
 * {box-sizing: border-box}
 .mySlides1, .mySlides2 {display: none}
 img {vertical-align: middle;
